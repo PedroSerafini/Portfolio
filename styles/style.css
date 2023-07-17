@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #03001C;
+    --cor-secundaria: #5B8FB9;
+    --cor-terciaria: #301E67;
+    --cor-hover: #B6EADA;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    color: var(--cor-secundaria);
+    background: var(--cor-primaria);
+}
+
+.navegacao {
+    padding: 2% 0%;
+}
+
+.navegacao__menu {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.navegacao__menu__link {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+}
+
+.conteudo {
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.conteudo__apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.conteudo__apresentacao__titulo {
+    color: var(--cor-terciaria);
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.conteudo__apresentacao__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.conteudo__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.conteudo__links__subtitulo {
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+}
+
+.conteudo__links__navegacao {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    padding: 21.5px 0;
+    width: 50%;
+    color: var(--cor-secundaria);
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.conteudo__links__navegacao:hover {
+    background-color: var(--cor-hover);
+}
+
+.conteudo__imagem {
+    width: 50%;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.experiencia__titulo {
+    font-size: 2.25rem;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+}
+
+.experiencia__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.rodape {
+    padding: 24px;
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--fonte-secundaria);
+}
