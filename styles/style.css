@@ -17,7 +17,7 @@ body {
 }
 
 .navegacao {
-    padding: 2% 0%;
+    padding: 3% 0%;
 }
 
 .navegacao__menu {
@@ -96,21 +96,35 @@ body {
 }
 
 .experiencia {
+    padding: 5% 15%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
 }
 
-.experiencia__titulo {
+.experiencia__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+}
+
+.experiencia__conteudo__titulo {
     font-size: 2.25rem;
     color: var(--cor-terciaria);
     font-family: var(--fonte-primaria);
 }
 
-.experiencia__texto {
+.experiencia__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+}
+
+.experiencia__imagem {
+    width: 40%; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px; 
 }
 
 ul {
