@@ -131,6 +131,25 @@ ul {
     list-style-type: circle;
 }
 
+.contato {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato__titulo {
+    font-size: 2.25rem;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+}
+
+.contato__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    padding: 5% 0;
+}
+
 .rodape {
     padding: 24px;
     text-align: center;
