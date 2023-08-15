@@ -34,6 +34,14 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
+.menu__mobile__icone {
+    display: none;
+}
+
+.menu__mobile {
+    display: none;
+}
+
 .conteudo {
     padding: 5% 15%;
     display: flex;
@@ -124,7 +132,6 @@ body {
 .experiencia__imagem {
     width: 40%; 
     border-radius: 20px;
-    box-shadow: 10px 10px 10px 5px; 
 }
 
 ul {
@@ -157,4 +164,60 @@ ul {
     font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--fonte-secundaria);
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .navegacao__menu__link {
+        display: none;
+    }
+
+    .menu__mobile__icone {
+        display: block;
+    }
+
+    .menu__mobile__icone button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu__mobile .navegacao__menu__link {
+        display: block;
+        padding: 2%;
+    }
+
+    .conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .experiencia {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .conteudo__imagem,.experiencia__imagem {
+        width: 70%;
+    }
+    
+    .conteudo__links__navegacao {
+        padding: 21.5px 30px;
+    }
+
+    .contato__texto {
+        padding: 10% 0;;
+    }
+    
+    .open {
+        display: none;
+    }
 }
