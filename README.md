@@ -14,7 +14,7 @@ Este é um projeto pessoal no qual desenvolvi meu currículo em uma página web 
 
 ## Como Usar
 
-Para visualizar meu currículo online, basta seguir os seguintes passos:
+Para visualizar meu currículo online, acesse [AQUI](https://pedroserafini.github.io/Portfolio/). Para a instalação, basta seguir os seguintes passos:
 
 1. Clone este repositório para o seu computador local usando o seguinte comando:
 ```bash
