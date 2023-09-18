@@ -35,7 +35,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - HTML: Utilizado para criar a estrutura da página web.
 - CSS: Utilizado para estilizar a página e torná-la visualmente atraente.
 - Javascript: Utilizado como recurso de responsividade para mobile.
-- 
 ## Contribuições
 
 Se você deseja contribuir para este projeto, fique à vontade para abrir um problema ou enviar uma solicitação pull. Sua contribuição é bem-vinda!
