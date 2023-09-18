@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #03001C;
-    --cor-secundaria: #5B8FB9;
-    --cor-terciaria: #301E67;
-    --cor-hover: #B6EADA;
+    --cor-primaria: #F9F7F7;
+    --cor-secundaria: #3F72AF;
+    --cor-terciaria: #112D4E;
+    --cor-hover: #DBE2EF;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -101,6 +101,8 @@ body {
 
 .conteudo__imagem {
     width: 50%;
+    border: 2px solid #3F72AF;
+    border-radius: 20px;
 }
 
 .experiencia {
@@ -157,11 +159,20 @@ ul {
     padding: 5% 0;
 }
 
+#wpp__icon {
+    vertical-align: bottom;
+}
+
+iframe {
+    border: 2px solid #112D4E;
+    border-radius: 20px;
+}
+
 .rodape {
     padding: 24px;
     text-align: center;
     background-color: var(--cor-terciaria);
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1vw + 0.5rem, 4rem);
     font-weight: 400;
     font-family: var(--fonte-secundaria);
 }
